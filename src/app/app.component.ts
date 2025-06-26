@@ -9,4 +9,9 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'first-app';
+  constructor(){
+    setTimeout(()=>{
+      this.title="Component Title => Pratham Saxena"
+    },5000)
+  }
 }
